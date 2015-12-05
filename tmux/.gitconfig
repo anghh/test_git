@@ -1,0 +1,31 @@
+[user]
+	name = anghh
+	email = ang_hh@sohu.com
+	mail = ang_hh@sohu.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = true
+	[color "branch"]  
+	current = yellow reverse  
+	local = yellow   
+	remote = green  
+	[color "diff"]  
+	meta = yellow bold  
+	frag = magenta bold  
+	old = red bold  
+	new = green bold  
+	[color "status"]  
+	added = yellow  
+	changed = green  
+	untracked = cyan
+[alias]
+	st= status 
+	cm= commit 
+	co = checkout
+	br= branch 
+	df= diff
+[commit]
+	template = /home/ang/.gitmessage.txt
+
