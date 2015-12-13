@@ -1,0 +1,20 @@
+find ./ -type f -exec sed -i -e "s/aaaa/bbbb/g" {}\;
+find . -name "abc*" -exec rename 's/abc/xyz/' {}\;
+
+find ./ -type f -name "file.*" -delete
+AAA_XXX := $(shell ls $(srctree)/$(boot)/dts/$(TARGET_PRODUCT)/
+dtbs:scripts
+for i in $(AAA_XXX);do $(MAKE) $(build)=$(boot)/dts/$(TARGET_PRODUCT)/$$i
+    MACHINE=$(MACHINE) dtbs:done;\
+
+g/pattern/d
+g!/pattern/d
+v/pattern/d
+
+gggUG
+ggguG
+sed -i "s/\s\+$//g" file
+
+:%s/abc/\r\nabc/g
+
+git format-patch -1
