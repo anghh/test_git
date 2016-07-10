@@ -18,3 +18,19 @@ sed -i "s/\s\+$//g" file
 :%s/abc/\r\nabc/g
 
 git format-patch -1
+
+#------------sed-----------------
+sed -i "s/\s\+$//g" file.txt
+
+sed -r 's/.{10}/&\n/g' file.txt
+
+
+
+
+#-----------find-----------------
+find ./ -name core.* | xargs rm -rf
+find ./ -type f -name "core.*" -exec rm -rf {}\;
+find ./ -type f -name "core.*" -delete
+
+
+sed -i "s/AAA/BBB/g" 'find ./ -name "*.c" | xargs grep "AAA" -rl'
