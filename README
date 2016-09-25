@@ -5,3 +5,4 @@ My first repository on GitHub
 git remote update
 git pull
 
+git push origin master
