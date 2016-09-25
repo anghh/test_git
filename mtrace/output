@@ -1,0 +1,6 @@
+= Start
+@ ./mtrace_test:[0x40079e] + 0x1652690 0x64
+@ ./mtrace_test:[0x40080f] - 0x1652690
+@ /lib/x86_64-linux-gnu/libc.so.6:(clearenv+0x5d)[0x7fa463008bcd] - 0x1652010
+@ /lib/x86_64-linux-gnu/libc.so.6:(tdestroy+0x5d)[0x7fa4630d359d] - 0x1652200
+@ /lib/x86_64-linux-gnu/libc.so.6:[0x7fa46314221c] - 0x1652220

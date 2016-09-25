@@ -1,0 +1,6 @@
+= Start
+@ ./debug:[0x4006b6] + 0x1ad16a0 0x8
+@ ./debug:[0x4006cd] - 0x1ad16a0
+@ /lib/x86_64-linux-gnu/libc.so.6:(clearenv+0x5d)[0x7fb0483abbcd] - 0x1ad1010
+@ /lib/x86_64-linux-gnu/libc.so.6:(tdestroy+0x5d)[0x7fb04847659d] - 0x1ad1200
+@ /lib/x86_64-linux-gnu/libc.so.6:[0x7fb0484e521c] - 0x1ad1230

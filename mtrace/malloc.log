@@ -1,0 +1,6 @@
+= Start
+@ ./test:[0x4006ae] + 0x25c56a0 0x190
+@ ./test:[0x4006c5] - 0x25c56a0
+@ /lib/x86_64-linux-gnu/libc.so.6:(clearenv+0x5d)[0x7f47a89d4bcd] - 0x25c5010
+@ /lib/x86_64-linux-gnu/libc.so.6:(tdestroy+0x5d)[0x7f47a8a9f59d] - 0x25c5200
+@ /lib/x86_64-linux-gnu/libc.so.6:[0x7f47a8b0e21c] - 0x25c5230
