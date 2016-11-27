@@ -1,0 +1,13 @@
+
+sudo fdisk -l
+fdisk /dev/sdb
+
+mkfs.ext4 /dev/sdb
+
+mount /dev/sdb/ /code/
+
+vim /etc/fstab
+
+
+quota
+http://blog.csdn.net/m582445672/article/details/7823445
